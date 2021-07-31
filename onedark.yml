@@ -1,7 +1,6 @@
 information:
   name: onedark
   background: dark
-  author: "Christian Chiarulli <chrisatmachine@gmail.com>"
 
 palette:
   fg: "#ABB2BF"
@@ -27,6 +26,10 @@ palette:
 
 highlights:
   Normal: "fg bg"
+
+  # ----------------------------------
+  # -- Standard Syntax Highlighting --
+  # ----------------------------------
 
   Comment: "line_grey - i"
   Constant: "yellow"
@@ -60,6 +63,10 @@ highlights:
   Todo: "purple - bi"
   Underlined: "cyan . u"
   Cursor: "- - r"
+    
+  # -------------------------
+  # -- Vim UI Highlighting --
+  # -------------------------
 
   ColorColumn: "- cursor_grey"
   CursorLineNr: "white - b"
@@ -106,7 +113,10 @@ highlights:
   WildMenu: "black blue"
   EndOfBuffer: "black"
 
-  # -- Start Treesitter --
+  # -----------------------------
+  # -- Treesitter Highlighting --
+  # -----------------------------
+  
   # Misc
   TSError: "error_red"
   TSPunctDelimiter: "white"
@@ -131,28 +141,28 @@ highlights:
   TSFuncBuiltin: "blue"
   TSFunction: "blue"
   TSFuncMacro: "yellow"
-  TSParameter: "cyan"
+  TSParameter: "orange"
   TSParameterReference: "cyan"
   TSMethod: "blue"
-  TSField: "red"
+  TSField: "fg"
   TSProperty: "yellow"
-  TSConstructor: "cyan"
+  TSConstructor: "blue"
   # Keywords
   TSConditional: "purple"
   TSRepeat: "purple"
   TSLabel: "blue"
   # Does not work for yield and return they should be diff then class and def
-  TSKeyword: "purple"
-  TSKeywordFunction: "purple"
-  TSKeywordOperator: "purple"
+  TSKeyword: "purple - i"
+  TSKeywordFunction: "purple - i"
+  TSKeywordOperator: "purple - i"
   TSOperator: "white"
   TSException: "purple"
-  TSType: "blue"
+  TSType: "yellow"
   TSTypeBuiltin: "blue"
   TSStructure: "#FF00FF"
   TSInclude: "purple"
   # Variable
-  TSVariable: "cyan"
+  TSVariable: "fg"
   TSVariableBuiltin: "yellow"
   # Text
   TSText: "#FFFF00"
@@ -165,9 +175,11 @@ highlights:
   # Tags
   TSTag: "red"
   TSTagDelimiter: "line_grey"
-  # -- END Treesitter --
 
-  # -- START Languages --
+  # ----------------------------
+  # -- Languages Highlighting --
+  # ----------------------------
+  
   # HTML (keep consistent with Markdown, below)
   htmlArg: "yellow"
   htmlBold: "yellow - b"
@@ -211,9 +223,12 @@ highlights:
   markdownOrderedListMarker: "red"
   markdownRule: "line_grey"
   markdownUrl: "cyan - u"
-  # -- END Languages --
 
-  # -- START CoC --
+  # ----------------------
+  # -- Plugins and Misc --
+  # ----------------------
+  
+  # Coc
   CocExplorerIndentLine: "line_grey"
   CocExplorerBufferRoot: "cyan"
   CocExplorerFileRoot: "cyan"
@@ -226,19 +241,13 @@ highlights:
   CocExplorerFileModified: "purple"
   CocExplorerFileHidden: "line_grey"
   CocExplorerHelpLine: "purple"
-  # -- END CoC --
 
-  # -- START Easymotion --
+  # Easymotion
   EasyMotionTarget: "error_red - b"
   EasyMotionTarget2First: "error_red - b"
   EasyMotionTarget2Second: "error_red - b"
-  EasyMotionShade: ""
-  # EasyMotionIncSearch:
-  # EasyMotionMoveHL:
 
-  # -- END Easymotion --
-
-  # -- START Startify --
+  # Startify
   StartifyNumber: "orange"
   StartifySelect: "green"
   StartifyBracket: "blue"
@@ -250,43 +259,21 @@ highlights:
   StartifyHeader: "green"
   StartifySection: "purple"
   StartifyFooter: "green"
-  # -- END Startify --
-  # -- START WhichKey --
+  
+  # Whichkey
   WhichKey: "purple"
   WhichKeySeperator: "green"
   WhichKeyGroup: "blue"
   WhichKeyDesc: "blue"
-  # -- END WhichKey --
-  # old stuff
+  
+  # Diff Highlighting
   diffAdded: "green"
   diffRemoved: "red"
   diffFileId: "blue - br"
   diffFile: "special_grey"
   diffNewFile: "green"
   diffOldFile: "red"
-  # ToolbarLine: ". darkgray"
-  # ToolbarButton: "suvagray - r"
-  debugPc: "- cyan"
   debugBreakpoint: "red - r"
-  # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
-  # -- Other junk you can define --
-  # Debug
-  # Ignore
-  # Tag
-  # Delimiter
-  # SpecialChar
-  # Cursor", { "fg": s:black, "bg": s:blue }) " the character under the cursor
-  # CursorIM", {}) " like Cursor, but used when in IME mode
-  # FoldColumn", {}) " 'foldcolumn'
-  # CursorLineNr", {}) " Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-  # MoreMsg", {}) " more-prompt
-  # ModeMsg", {}) " 'showmode' message (e.g., "-- INSERT --")
-  # ErrorMsg: "red - br"
-  # WarningMsg: "green - br"
-  # ModeMsg: "yellow - br"
-  # MoreMsg: "green - br"
-  # Question: "cyan - br"
-  # Directory: "blue - b"
   
   # VimWiki
   VimwikiHeader1: "orange - b"
