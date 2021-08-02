@@ -274,6 +274,10 @@ highlights:
   diffNewFile: "green"
   diffOldFile: "red"
   debugBreakpoint: "red - r"
+  GitSignsAdd: "green"
+  GitSignsRemoved: "red"
+  GitSignsChange: "yellow"
+  GitSignsDelete: "red"
   
   # VimWiki
   VimwikiHeader1: "orange - b"
