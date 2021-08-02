@@ -38,7 +38,7 @@ highlights:
   Number: "orange"
   Boolean: "blue"
   Float: "orange"
-  Identifier: "blue"
+  Identifier: "fg"
   Function: "yellow"
   Statement: "purple"
   Conditional: "purple"
