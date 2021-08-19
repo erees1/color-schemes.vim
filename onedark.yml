@@ -20,7 +20,7 @@ palette:
   gutter_fg_grey: "#4B5263"
   cursor_grey: "#2C323C"
   visual_grey: "#3E4452"
-  menu_grey: "#282C34"
+  menu_grey: "#333841"
   special_grey: "#3B4048"
   vertsplit: "#181A1F"
 
@@ -69,7 +69,7 @@ highlights:
   # -------------------------
 
   ColorColumn: "- cursor_grey"
-  CursorLineNr: "white - b"
+  CursorLineNr: "white cursor_grey b"
   SignColumn: "- bg"
   Conceal: "line_grey"
   CursorColumn: "- cursor_grey"
@@ -99,8 +99,8 @@ highlights:
   SpellCap: "yellow"
   SpellLocal: "yellow"
   SpellRare: "yellow"
-  StatusLine: "white cursor_grey"
-  StatusLineNC: "line_grey"
+  StatusLine: "fg visual_grey"
+  StatusLineNC: "line_grey cursor_grey"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
   TabLine: "line_grey"
