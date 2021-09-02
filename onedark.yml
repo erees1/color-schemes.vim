@@ -63,6 +63,7 @@ highlights:
   Todo: "purple - bi"
   Underlined: "cyan . u"
   Cursor: "- - r"
+  FloatBorder: "fg"
     
   # -------------------------
   # -- Vim UI Highlighting --

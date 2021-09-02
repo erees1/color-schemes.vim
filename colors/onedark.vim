@@ -40,6 +40,7 @@ hi Error guifg=#f44747 ctermfg=203 guibg=NONE ctermbg=NONE gui=bold,reverse cter
 hi Todo guifg=#c678dd ctermfg=176 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi Underlined guifg=#56b6c2 ctermfg=73 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
+hi FloatBorder guifg=#abb2bf ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#abb2bf ctermfg=249 guibg=#2c323c ctermbg=236 gui=bold cterm=bold
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
