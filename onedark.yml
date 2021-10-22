@@ -104,7 +104,7 @@ highlights:
   SpellCap: "yellow"
   SpellLocal: "yellow"
   SpellRare: "yellow"
-  StatusLine: "fg visual_grey"
+  StatusLine: "fg cursor_grey"
   StatusLineNC: "line_grey cursor_grey"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
