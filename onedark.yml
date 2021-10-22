@@ -5,11 +5,15 @@ information:
 palette:
   fg: "#ABB2BF"
   bg: "#282C34"
+  bg_sidebar: "#21252B"
 
   red: "#E06C75"
+  red_transparent: "#53232A"
   error_red: "#F44747"
   green: "#98C379"
+  green_transparent: "#23414F"
   yellow: "#E5C07B"
+  yellow_transparent: "#746750"
   orange: "#D19A66"
   blue: "#61AFEF"
   purple: "#C678DD"
@@ -76,10 +80,10 @@ highlights:
   CursorColumn: "- cursor_grey"
   CursorLine: "- cursor_grey"
   Directory: "blue"
-  DiffAdd: "black green"
-  DiffChange: "yellow - u"
-  DiffDelete: "black red"
-  DiffText: "black yellow"
+  DiffAdd: "- green_transparent"
+  DiffChange: "- yellow_transparent u"
+  DiffDelete: "red visual_grey"
+  DiffText: "- yellow_transparent"
   ErrorMsg: "error_red"
   VertSplit: "vertsplit"
   Folded: "line_grey"
@@ -267,7 +271,7 @@ highlights:
   WhichKeyGroup: "blue"
   WhichKeyDesc: "blue"
   
-  # Diff Highlighting
+  # Diff Highlighting - fugitive uses the one above
   diffAdded: "green"
   diffRemoved: "red"
   diffFileId: "blue - br"
@@ -293,3 +297,6 @@ highlights:
   VimwikiList: "orange"
   VimwikiTag: "orange"
   VimwikiMarkers: "line_grey"
+
+  # NvimTree
+  NvimTreeNormal: "fg bg_sidebar"
