@@ -299,4 +299,4 @@ highlights:
   VimwikiMarkers: "line_grey"
 
   # NvimTree
-  NvimTreeNormal: "fg bg_sidebar"
+  NvimTreeNormal: "fg bg"
