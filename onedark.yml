@@ -108,9 +108,9 @@ highlights:
   StatusLineNC: "line_grey cursor_grey"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
-  TabLine: "line_grey"
-  TabLineSel: "white"
-  TabLineFill: "- bg"
+  TabLine: "line_grey bg_sidebar"
+  TabLineSel: "white bg"
+  TabLineFill: "- bg_sidebar"
   Terminal: "white black"
   Visual: "- visual_grey"
   VisualNOS: "visual_grey"
@@ -180,6 +180,7 @@ highlights:
   # Tags
   TSTag: "red"
   TSTagDelimiter: "line_grey"
+  TSWarning: "purple"
 
   # ----------------------------
   # -- Languages Highlighting --
